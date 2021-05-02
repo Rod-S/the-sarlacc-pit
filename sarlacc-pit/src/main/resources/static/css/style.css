@@ -1,0 +1,231 @@
+@media screen and (max-width: 670px){
+      header{
+          min-height: 150px;
+      }
+  }
+  .section{
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+  }
+
+  .icon-black{
+    color: black;
+  }
+
+  .landing{
+    background-color: white;
+  }
+
+  body{
+    font-family: "Roboto";
+    background-image: url("../img/bg.jpg");
+  }
+
+  #table-bg{
+    background-color: #004181;
+  }
+
+  .table-bg{
+    background-color: #004181;
+  }
+
+  .table-body{
+    background-color: white;
+  }
+  h4, h5, h6{
+    color: #004181;
+  }
+  i.profile-icon{
+    color: #004181;
+  }
+  h2{
+    margin: 0;
+  }
+  .profile-info{
+    display: flex;
+    width:100%;
+
+  }
+
+  table.highlight>tbody {
+    cursor: default;
+  }
+
+  table.highlight>tbody>tr:hover {
+    /*background-color: #fed8b1;*/
+    cursor: default;
+  }
+
+  thead {
+    cursor: default;
+  }
+thead>tr.film:hover {
+  background-color: #fed8b1;
+  cursor: pointer;
+}
+
+.heading:hover {
+  cursor: pointer;
+  color: yellow;
+
+}
+
+  .sub-title{
+    margin-top: 0;
+  }
+  .rounded{
+    border-radius: 10px;
+  }
+  .user-info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .user-full{
+    margin: 0;
+  }
+
+
+  /*}*/
+
+  /*#verify-form{*/
+  /*    display: flex;*/
+  /*    justify-content: space-evenly;*/
+  /*}*/
+
+
+
+  .welcome{
+    border-radius: 15px;
+  }
+  .nav-wrapper{
+    background-color: #004181;
+  }
+
+
+
+  p {
+    line-height: 3rem;
+  }
+
+  .sidenav-trigger {
+    color: #26a69a;
+  }
+
+  .parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+  }
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  @media only screen and (max-width : 992px) {
+    .parallax-container .section {
+      position: absolute;
+      top: 40%;
+    }
+    #index-banner .section {
+      top: 10%;
+    }
+  }
+
+  @media only screen and (max-width : 600px) {
+    #index-banner .section {
+      top: 0;
+    }
+  }
+
+  .icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
+
+  footer.page-footer {
+    margin: 0;
+  }
+
+  .parallax{
+    filter: blur(5px);
+  }
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: #004181;
+  color: white;
+  display: block !important
+}
+.modal-header h2{
+  text-align: center;
+}
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}

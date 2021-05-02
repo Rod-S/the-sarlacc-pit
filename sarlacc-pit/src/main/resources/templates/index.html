@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head th:replace="partials/header :: header-links">
+<meta charset="UTF-8">
+<title>Viewing All Films</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: yellow">Welcome to the SARLACC pit!</h1>
+    <div>
+        <h3 style="text-align: center; color: yellow">View, sort and filter each of the 6 main Star Wars films.</h3>
+    </div>
+
+    <div class="container">
+        <br>
+        <div>
+            <form>
+                    <input type="text" id="search" name="search" style="width:30%" placeholder="Search for films...">
+            </form>
+        </div>
+        <table class="films-table centered responsive-table highlight">
+            <thead class="header-row">
+            <tr class="film-table white-text table-bg" style>
+                <th class="heading heading-title center-align">Title</th>
+                <th class="heading heading-episode center-align">Episode</th>
+                <th class="heading heading-release center-align">Release Date</th>
+            </tr>
+            </thead>
+        </table>
+    </div>
+    <script type="text/javascript" src="js/swapiAjax.js"></script>
+</body>
+</html>
